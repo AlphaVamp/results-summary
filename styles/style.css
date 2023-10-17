@@ -1,0 +1,41 @@
+html{
+    font-size: 18px;
+}
+
+body{
+    overflow: hidden;
+}
+
+#parentDiv{
+    border: 1px solid black;
+    width: 558px;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+    border-radius: 25px;
+    margin-top: 166px;
+    margin-left: 460px;
+    padding: 0 0 0 0;
+}
+
+#title{
+    font-size: 27px;
+}
+
+#childDiv1{
+    border: 1px solid black;
+    border-radius: 25px;
+    /* height: 100%; */
+    margin: 0 25px 0 0;
+    padding: 155px 0 116px 0;
+    
+}
+
+#childDiv2{
+    padding: 20px 20px 22px 45px;
+    margin: 0 0 0 0;
+    /* display: flex; */
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
